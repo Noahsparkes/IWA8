@@ -24,6 +24,7 @@ const leo = {
     street: leoStreet,
     postalCode: leoPostal,
   },
+
 };
 
 
@@ -42,8 +43,8 @@ const sarah = {
 };
 
 
-console.log(leo, leo[address][postal - code]);
-console.log(sarah, sarah[address][postal - code]);
+console.log(leo, leo[leoStreet][leoPostal]);
+console.log(sarah, sarah[sarahStreet][sarahPostal ]);
 
 /*const venter = {
     firstname: 'Noah',
